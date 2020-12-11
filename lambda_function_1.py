@@ -11,5 +11,5 @@ def lambda_handler(event, context):
     return {
         'statusCode': 200,
         'headers': ACCESS_HEADERS,
-        'body': json.dumps('Hello From LF1 in CodePipeline')
+        'body': json.dumps('Hello From LF1 domo to Divya in CodePipeline')
     }
